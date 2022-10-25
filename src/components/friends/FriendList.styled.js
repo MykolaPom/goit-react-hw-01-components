@@ -10,6 +10,9 @@ export const ListOfFriends = styled.ul`
 
   margin-left: auto;
   margin-right: auto;
+
+  background-color: #def6ff;
+  border-radius: 15px;
 `;
 
 
