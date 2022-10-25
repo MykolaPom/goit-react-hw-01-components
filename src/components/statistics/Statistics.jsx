@@ -10,7 +10,7 @@ export const Statistics = ({ title, props }) => {
         {props.map(({ id, label, percentage }) => (
           <ListItem key={id}>
             <Label>{label}</Label>
-            <Percentage>{percentage}</Percentage>
+            <Percentage>{percentage}%</Percentage>
           </ListItem>
         ))}
       </List>
